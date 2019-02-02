@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @phpversion 5.5
+ * @phpversion 7.2
  */
 
 declare(strict_types=1);

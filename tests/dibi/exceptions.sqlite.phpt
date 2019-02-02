@@ -2,7 +2,7 @@
 
 /**
  * Test: query exceptions.
- * @dataProvider ../databases.ini sqlite
+ * @dataProvider? ../databases.ini sqlite
  */
 
 declare(strict_types=1);

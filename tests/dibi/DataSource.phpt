@@ -127,7 +127,7 @@ Assert::equal(new Row([
 Assert::same(1, $conn->dataSource('SELECT * FROM products ORDER BY product_id')->fetchSingle());
 
 Assert::same(
-	[1 => 'Chair', 'Table', 'Computer'],
+	[1 => 'Chair', 2 => 'Table', 3 => 'Computer'],
 	$conn->dataSource('SELECT * FROM products ORDER BY product_id')->fetchPairs()
 );
 
